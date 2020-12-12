@@ -7,5 +7,5 @@ const month = months[date.getMonth()]
 const day = date.getDate();
 const year = date.getFullYear();
 
-result = day + "/" + month + "/" + year;
+const result = `${day}/${month}/${year}`;
 dateDiv.innerHTML = result;

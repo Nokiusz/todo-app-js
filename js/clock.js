@@ -14,7 +14,7 @@ function startClock() {
     minutes = (minutes < 10 ? "0" : "") + minutes;
     seconds = (seconds < 10 ? "0" : "") + seconds;
 
-    const result = hours + ":" + minutes + ":" + seconds;
+    const result = `${hours}:${minutes}:${seconds}`;
 
     clock.innerHTML = result;
 
