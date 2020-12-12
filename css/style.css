@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 * {
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
@@ -11,7 +11,7 @@ body {
 }
 
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     margin: 0;
     padding: 0;
     background-color: #303030;
@@ -43,8 +43,8 @@ form {
     width: 800px;
 }
 
-input[type=text] {
-    background-color: #46529D;
+input[type="text"] {
+    background-color: #46529d;
     display: block;
     padding: 1rem 2rem;
     font-size: 2rem;
@@ -54,7 +54,7 @@ input[type=text] {
     color: #fff;
 }
 
-input[type=text]::placeholder {
+input[type="text"]::placeholder {
     color: #ffffff;
     opacity: 0.7;
 }
@@ -67,7 +67,7 @@ input[type=text]::placeholder {
 }
 
 .todo-ul li {
-    background-color: #46529D;
+    background-color: #46529d;
     padding: 1rem 2rem;
     font-size: 2rem;
     border-top: 2px solid #36418d;
@@ -98,27 +98,27 @@ input[type=text]::placeholder {
 }
 
 .done-btn {
-    background-color: #27AE60;
+    background-color: #27ae60;
     transition: 0.2s ease-in-out;
     margin-right: 3px;
 }
 
 .done-btn-alt {
-    background-color: #E67E22;
+    background-color: #e67e22;
     transition: 0.2s ease-in-out;
     margin-right: 3px;
 }
 
 .done-btn-alt:hover {
-    background-color: #ac5810!important;
+    background-color: #ac5810 !important;
 }
 
 .done-btn:hover {
-    background-color: #128b45!important;
+    background-color: #128b45 !important;
 }
 
 .delete-btn {
-    background-color: #C0392B;
+    background-color: #c0392b;
     transition: 0.2s ease-in-out;
 }
 
